@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>The Null Pointer's corner</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head> 
+
+<body>
+  
+	<div class="main-wrapper">
+	    
+	    <article class="blog-post px-3 py-5 p-md-5">
+		    <div class="container single-col-max-width">
+			    <header class="blog-post-header">
+				    <h2 class="title mb-2">How to leverage AI tools to write regular expressions</h2>
+					<br>
+				    <div class="meta mb-3"><span class="date">Published on Tuesday, 04 April 2023</span><span class="time">3 min read</span></div>
+			    </header>
+			    
+			    <div class="blog-post-body">
+				    <figure class="blog-banner">
+  						<img class="img-fluid" src="assets/images/blog/blog-post-banner-2.jpg" alt="image"></a>
+				        <figcaption class="mt-2 text-center image-caption">Photo by <a href="https://unsplash.com/@ilgmyzin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ilgmyzin</a> on <a href="https://unsplash.com/photos/agFmImWyPso?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+						</figcaption>
+				    </figure>
+				    <p>
+						<h4>A little refresher on regular expressions</h4>
+						<br>
+						Regular expressions, or regex, are a powerful tool for searching and manipulating text data. 
+						They are used in many programming languages, text editors, and command-line tools to find specific patterns of text and perform operations on them.
+						Regex patterns are made up of a combination of characters and special symbols, which are used to define the search pattern. <br><br>
+						Here's a simple example: let's say you want to search for all occurrences of the word "apple" in a text document. You could use the following regex pattern:
+						<code>/apple/</code><br>
+						This pattern will match any instance of the word "apple" in the text, regardless of its position in the sentence or the case of the letters.<br><br>
+						Another common use for regex is to validate user input, such as email addresses or phone numbers.
+						For reference Here are the most commonly used regex symbols and their meanings:
+						<br>
+						<br>
+						^ – matches the beginning of a string or line.<br>
+						$ – matches the end of a string or line.<br>
+						. – matches any single character except for a newline character.<br>
+						* – matches zero or more occurrences of the preceding character.<br>
+						+ – matches one or more occurrences of the preceding character.<br>
+						? – matches zero or one occurrence of the preceding character.<br>
+						| – matches either the preceding or the following character or expression.<br>
+						[] – matches any character inside the brackets.<br>
+						() – groups characters or expressions together.<br>
+						{} – specifies the number of occurrences of the preceding character or expression.
+						<br><br>
+						Here are some additional regex symbols that are less commonly used but can be very useful: 
+						<br>
+						<br>
+						\ – escapes special characters, allowing them to be treated as literals. <br>
+						\d – matches any digit (0-9). <br>
+						\w – matches any alphanumeric character and underscore (_). <br>
+						\s – matches any whitespace character, including space, tab, and newline. <br>
+						\b – matches a word boundary, which is the position between a word character and a non-word character. 
+						<br>
+						<br>
+						<br>
+						<h4>ChatGPT to the rescue  ! </h4>
+						<br>
+						While it is <b>IMPORTANT</b> to know the basics of regex, one can leverage new AI tools to boost work productivity.
+						Fortunately, <a href="https://openai.com/blog/chatgpt">ChatGPT</a> , a language model developed by OpenAI, 
+						can assist in writing regular expressions in a simpler and more efficient way.
+						Here are some steps to using ChatGPT to write regular expressions: 
+						<br>
+						<br>
+						Start by providing a clear description of the pattern you are trying to match.
+						For example, if you want to match email addresses, you might describe the pattern as "a string of characters containing an @ symbol,
+						followed by a domain name with a dot, and ending with a top-level domain (such as .com or .org)."
+						<br>
+						<br>
+						Use natural language to describe the specific rules or conditions that the pattern must follow.
+						For example, you might specify that the email address must start with a letter or number, 
+						and can contain letters, numbers, dots, hyphens, and underscores.
+						<br>
+						<br>
+						Use ChatGPT to generate a regular expression based on your description.
+						To do this, simply input your description into ChatGPT and ask for a regular expression that matches the pattern you have described.
+						ChatGPT will use its natural language processing capabilities to understand your description 
+						and generate a regular expression that fits your criteria.
+						<br>
+						<br>
+						Refine the regular expression as needed. ChatGPT's generated regular expression may not be perfect, 
+						so you may need to make some adjustments to ensure that it accurately matches the pattern you are looking for.
+						You can use an online regular expression tester to test your regular expression and make sure it matches the desired pattern. I usually use <a href="https://regexr.com/">regexr</a>.
+						<br>
+						<br>
+						Finally, use the regular expression in your code or application. 
+						Once you have a working regular expression, you can use it to match patterns in your code or application.
+						For example, if you are using Python, you can use the re module to search for patterns that match your regular expression.
+						<br>
+						<br>
+						<br>
+						<h4>Final thoughts </h4>
+						<br>
+						In conclusion, using ChatGPT to generate regular expressions can save time and simplify the process of matching patterns in text.
+						By providing a clear description of the pattern you are looking for and using natural language to describe the rules and conditions, 
+						ChatGPT can generate a regular expression that matches your criteria. <br>
+						With a little refinement, the generated regular expression can be used to match patterns in your code or application.<br>
+					</p>
+					<a href="index.html"><i class="fa fa-arrow-left"></i> Back</a>
+		    </div><!--//container-->
+	    </article>
+
+    </div><!--//main-wrapper-->
+
+	 
+    <!-- Javascript -->          
+    <script src="assets/plugins/popper.min.js"></script> 
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+
+    
+
+</body>
+</html> 
+
