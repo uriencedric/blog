@@ -12682,8 +12682,8 @@ a.text-link:hover {
 
 .footer {
     color: rgba(255, 255, 255, 0.7);
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 0px !important;
     width: 100%;
 }
 
